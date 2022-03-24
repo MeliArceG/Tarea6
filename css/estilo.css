@@ -1,0 +1,72 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: #ffff;
+}
+
+.pricipal {
+    width: 75%;
+    height: 95%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 2%;
+    background-color: beige;
+}
+  
+.cabecera{
+    width: 100%;
+    background-color: rgb(216, 216, 148);
+}
+
+.contenedor{
+    display: flex;
+}
+
+.contenedor img{
+    width: 20%;
+}
+
+.contenedor h1{
+    font-size: 2.5rem;
+    margin-top: 8.5%;
+    margin-right: 35%;
+    color: crimson;
+}
+
+nav, footer{
+    background-color: rgb(231, 221, 202);
+    text-align: center;
+}
+
+.boton{
+    background-color: rgb(227, 241, 163);
+    width: 70px;
+    height: 35px;
+    margin-left: 5px;
+}
+
+.calc{
+    text-align: center;
+    display: flex;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+  
+  input:invalid:required {
+    background-image: linear-gradient(to right, rgb(246, 255, 192), rgb(238, 197, 144));
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
+
+  .titulo{
+      display: none;
+  }
